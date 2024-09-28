@@ -1,0 +1,157 @@
+body{
+    background-color: #efefef;
+    width: 900px;
+    height: 500px;
+   margin: auto;
+
+}
+.principal{
+    border: 1px solid;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    width: 900;
+    height: 500;
+    margin: auto;
+}
+.cavecera{
+    width: 900px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    background-color: #FABF8F ;
+    text-align: center;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.cavecera img{
+    width: 90px;
+    height: 100px;
+}
+.titulo{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.titulo_1{
+    color: #C60000;
+}
+.titulo_2{
+    color: #0070C0;
+    display: inline;
+}
+.item1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.di1{
+   width: 450px;
+   height: 40px;
+   background-color: #D9D9D9 ;
+   text-align: center;
+   border-right: 1px solid;
+   
+}
+.di2{
+    width: 450px;
+    height: 40px;
+    background-color: #92D050  ;
+    text-align: center;
+ }
+ .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 900px;
+    height: 40px;
+    background-color: #5a5e5e;
+    padding-top: 6px;
+ 
+  
+    
+ }
+ .menudentro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     width: 480px;
+   
+     
+ }
+
+ .menudentro  div{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:yellow;
+    width: 120px;
+    height: 15px;
+    margin-left: 1px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    border: 2px solid red;
+ }
+ .texto {
+    font-size: 20px;
+     font-weight: bold;
+    display: flex;
+   color: #FFC000;
+   justify-content: flex-start;
+ }
+ .menus02 {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 200px;
+    background-color: #D9D9D9;
+    
+   
+    
+ }
+ .items1{
+    background-color: white;
+    width: 120px;
+    height: 200px;
+    border-right: 1px solid;
+}
+.items1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow ;
+    margin: 8px;
+    margin-left: 1px;
+    text-align: center;
+    padding: 8px;
+    border: 2px solid red;
+}
+.menu03{
+    
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    background-color: #D9D9D9;
+    text-align: center;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.ultimo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 900px;
+    height: 20px;
+    background-color: white;
+   border-top: 1px solid;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
